@@ -21,6 +21,9 @@ A Magisk module that allows you to uninstall the Android Runtime (ART) APEX pack
   * `uninstalled`
   * `not present`
 
+* Visual example
+<img width="1080" height="452" alt="image0" src="https://github.com/user-attachments/assets/7ba67c31-d7c5-42f5-ad22-2f7f4d10ec85" />
+
 ---
 
 ## How It Works
