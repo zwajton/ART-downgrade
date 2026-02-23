@@ -1,6 +1,6 @@
 # ART Uninstall (Magisk Module)
 
-A Magisk module that allows you to uninstall the Android Runtime (ART) APEX package directly from the Magisk app using an Action button.
+A Magisk module that allows you to uninstall the Android Runtime (ART) APEX package directly from the Magisk app (or other root app that supports this) using an Action button.
 
 ⚠ **Warning:** This module modifies a core system component. There is a real risk of bootloop after reboot.
 
@@ -32,7 +32,6 @@ A Magisk module that allows you to uninstall the Android Runtime (ART) APEX pack
 When pressed:
 
 1. Runs:
-
    ```
    pm uninstall com.android.art
    pm uninstall com.google.android.art
@@ -48,7 +47,6 @@ A `service.sh` script:
 
 * Waits for full Android boot
 * Checks ART APEX state hourly using:
-
   ```
   pm path <package>
   ```
@@ -59,6 +57,9 @@ APEX detection logic:
 * `/data/apex/active/` → **installed**
 * `/data/apex/decompressed/` → **uninstalled**
 * No output → **not present**
+
+* Visual example
+<img width="1080" height="452" alt="image0" src="https://github.com/user-attachments/assets/7ba67c31-d7c5-42f5-ad22-2f7f4d10ec85" />
 
 ---
 
