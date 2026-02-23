@@ -92,8 +92,10 @@ Use at your own risk.
 
 1. Download the latest release ZIP.
 2. Flash via Root handler → Modules → Install from storage.
-3. Reboot.
-4. Press the **Action** button inside Magisk.
+3. Reboot the phone.
+4. Open your Root handler (or KSUWebUIStandaloneApp)
+5. Navigate to Modules
+6. Press the **Action** button for _ART Uninstall_.
 
 ---
 
